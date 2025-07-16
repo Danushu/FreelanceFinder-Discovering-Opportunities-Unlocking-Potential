@@ -34,7 +34,7 @@ SB Works is a MERN stack-based freelancing platform designed to bridge the gap b
 
 ## 🏗️ Project Structure
 
-freelance-finder/
+freelance-finder/ 
 ├── client/ # React Frontend
 │ ├── components/
 │ ├── pages/
@@ -77,7 +77,7 @@ cd ../client
 npm start
 The app runs on http://localhost:3000
 
-📐 Technical Architecture
+## Technical Architecture
 SB Works follows a client-server model:
 
 Frontend: React.js for UI, Axios for API communication
@@ -86,10 +86,10 @@ Backend: Node.js with Express.js handles business logic and APIs
 
 Database: MongoDB for flexible and scalable data storage
 
-📋 Use Case: Sarah the Designer
+**Use Case:** Sarah the Designer
 Sarah, a recent graduate in graphic design, finds the "Sugar Rush" bakery project on SB Works. She submits a proposal, wins the job, collaborates with the client via integrated chat, and delivers a logo. After positive feedback, her SB Works profile grows stronger.
 
-📌 Responsibilities
+## Responsibilities
 Freelancers
 Submit high-quality, on-time work
 
@@ -97,21 +97,21 @@ Communicate clearly with clients
 
 Maintain professionalism
 
-Clients
+**Clients**
 Provide clear project briefs
 
 Pay fairly and on time
 
 Offer constructive feedback
 
-Admins
+**Admins**
 Oversee platform integrity
 
 Moderate disputes
 
 Maintain system uptime
 
-🧱 Milestones Overview
+## Milestones Overview
 Setup & Tooling: React, Node, MongoDB, Express installed
 
 Backend Development: APIs for auth, projects, chat, users
