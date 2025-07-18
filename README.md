@@ -1,65 +1,77 @@
-# FreelanceFinder-Discovering-Opportunities-Unlocking-Potential
+# SB Works - Freelancing Platform (MERN Stack)
 
-# SB Works - Freelance Finder Platform
+SB Works is a modern freelancing platform designed to connect clients with skilled freelancers. It offers an intuitive UI for project posting, bidding, real-time chat, and smooth collaboration with role-based access for clients, freelancers, and admins.
 
-SB Works is a MERN stack-based freelancing platform designed to bridge the gap between clients and talented freelancers. It allows clients to post projects, review proposals, communicate with freelancers, and manage project delivery — all in one intuitive and secure environment.
+## 🌐 Live Demo
 
-## 🧠 Features
+🎥 [Watch Demo Video](https://drive.google.com/file/d/1erdcudF8D00QyHEf0aMKioTAqWa2AjDb/view?usp=sharing)
 
-- Client and freelancer registration/login
-- Project posting & bidding system
-- Real-time chat for collaboration
-- Project submission and feedback system
-- Admin panel for platform management
-- Role-based access control
-- Email alerts and notifications
+## 📁 Project Repository
+
+📦 [Source Code (Drive Link)](https://drive.google.com/drive/folders/10mSn2lMTaVMDWWFNjeJjiOLfmcD3-87C?usp=sharing)
 
 ---
 
-## 🌐 Tech Stack
+## ✨ Features
 
-**Frontend**  
-- React.js  
-- Axios  
-- Bootstrap & Material UI
-
-**Backend**  
-- Node.js  
-- Express.js  
-- MongoDB  
-- Mongoose  
-- CORS, Bcrypt
+- Project posting and bidding system
+- Freelancer profiles and portfolios
+- Real-time communication via chat
+- Admin dashboard for user/project moderation
+- Secure authentication and role management
+- Notifications and project updates
 
 ---
 
-## 🏗️ Project Structure
+## 💻 Tech Stack
 
-freelance-finder/ 
-├── client/ # React Frontend
-│ ├── components/
-│ ├── pages/
-│ └── App.js
-├── server/ # Node.js + Express Backend
-│ ├── models/
-│ ├── routes/
-│ └── server.js
+**Frontend**
+- React.js
+- Axios
+- Bootstrap / Material UI
 
-
----
-
-## 🛠️ Prerequisites
-
-- Node.js & npm: https://nodejs.org/en/download/
-- MongoDB: https://www.mongodb.com/try/download/community
-- Git: https://git-scm.com/downloads
+**Backend**
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Bcrypt, CORS
 
 ---
 
-## ⚙️ Setup Instructions
+## 📐 Architecture
 
-# Clone the project
-git clone https://github.com/yourusername/FreelanceFinder.git
-cd FreelanceFinder
+SB Works follows a client-server model:
+- **Frontend (React.js):** Handles user interface, project browsing, bidding, and chat.
+- **Backend (Express.js):** Handles API routing, user authentication, project management, chat, and admin logic.
+- **Database (MongoDB):** Stores users, projects, applications, and messages.
+
+---
+
+## 📊 ER Diagram & Flow
+
+- Clients → Post projects → Browse freelancers
+- Freelancers → Submit proposals → Chat & collaborate
+- Admin → Moderates users/projects → Resolves disputes
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Node.js and npm – [Download](https://nodejs.org/)
+- MongoDB – [Download](https://www.mongodb.com/try/download/community)
+- Git – [Download](https://git-scm.com/downloads)
+- VS Code – [Download](https://code.visualstudio.com/download)
+
+---
+
+### ⚙️ Installation Steps
+
+```bash
+# Clone the repository or download from Drive
+cd freelancer-app-MERN
 
 # Install frontend dependencies
 cd client
@@ -69,55 +81,66 @@ npm install
 cd ../server
 npm install
 
-# Start backend server
+# Start the development server
 npm start
+App runs at: http://localhost:3000
 
-# Start frontend (in new terminal)
-cd ../client
-npm start
-The app runs on http://localhost:3000
-
-## Technical Architecture
-SB Works follows a client-server model:
-
-Frontend: React.js for UI, Axios for API communication
-
-Backend: Node.js with Express.js handles business logic and APIs
-
-Database: MongoDB for flexible and scalable data storage
-
-**Use Case:** Sarah the Designer
-Sarah, a recent graduate in graphic design, finds the "Sugar Rush" bakery project on SB Works. She submits a proposal, wins the job, collaborates with the client via integrated chat, and delivers a logo. After positive feedback, her SB Works profile grows stronger.
-
-## Responsibilities
+**👤 Roles & Responsibilities **
 Freelancers
-Submit high-quality, on-time work
+Browse & bid on projects
 
-Communicate clearly with clients
+Submit deliverables on time
 
-Maintain professionalism
+Communicate via chat
 
 **Clients**
-Provide clear project briefs
+Post clear project descriptions
 
-Pay fairly and on time
+Review and select freelancers
 
-Offer constructive feedback
+Approve work & release payments
 
-**Admins**
-Oversee platform integrity
+**Admin**
+Enforce platform policies
 
-Moderate disputes
+Manage disputes and reports
 
-Maintain system uptime
+Monitor transactions
 
-## Milestones Overview
-Setup & Tooling: React, Node, MongoDB, Express installed
+**📌 Project Milestones**
+**Project Setup:** Folder structure, dependency installation
 
-Backend Development: APIs for auth, projects, chat, users
+**Backend Dev:** MongoDB models, Express routes, JWT Auth
 
-Frontend Development: UI with React, integrated with backend
+**Frontend Dev:** React components, integration, API calls
 
-Admin Panel (optional): View users, projects, transactions
+**Database Setup: ** MongoDB schema for users, projects, chats
 
-Testing & Final Review: UI/UX polishing, bug fixes
+**Testing & Deployment**
+
+**📷 UI Screenshots**
+Landing Page
+
+Login/Register
+
+Freelancer Dashboard
+
+Admin Dashboard
+
+Project Posting & Applications
+
+**🤝 Contributing**
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+📎 Useful Links
+📂 Source Code Folder
+
+🎥 Demo Video
+
+📖 MongoDB Installation Guide
+
+⚛️ Create React App
+
+🧑‍🎓 Case Study Example
+Sarah, a graphic designer, finds a logo redesign project on SB Works. She applies, communicates with the client, delivers quality work, and receives positive feedback — boosting her freelance career.
+
